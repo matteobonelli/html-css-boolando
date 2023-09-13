@@ -7,17 +7,27 @@
 body{
     font-family: 'Noto Sans', sans-serif;
 }
+/* .debug{
+    border: 1px solid black;
+} */
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
-.s-b-flex{
+.sb-flex{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     align-content: center;
 }
+.nw-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 5%;
+}
+
 ul{
     list-style: none;
     color: white;
@@ -40,4 +50,36 @@ nav{
 }
 .logo-container img{
     width: 100%;
+}
+/*main*/
+.nw-flex .cards{
+    width: calc(100% / 3);
+    min-width: 300px;
+}
+.cards img{
+    width: 100%;
+}
+.img2{
+    display: none;
+}
+.cards:hover .img1{
+    display: none;
+}
+.cards:hover .img2{
+    display: inline-block;
+}
+.marca{
+    font-size: 0.8em;
+}
+.abiti{
+    font-weight: 900;
+}
+.discounted{
+    color: red;
+    font-weight: 900;
+    font-size: 0.9em;
+}
+.full-price{
+    text-decoration: line-through;
+    color: black;
 }
