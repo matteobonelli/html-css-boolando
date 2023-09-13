@@ -25,17 +25,21 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container .nw-flex{
     padding: 5%;
 }
 
 ul{
     list-style: none;
     color: white;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 li{
-    padding: 0px 5px;
+    padding: 0px 10px 0px 0px;
     font-size: 0.9em;
 }
 /*header*/
@@ -106,4 +110,27 @@ nav{
     color: white;
     font-size: 0.7em;
     display: inline-block;
+}
+/*footer*/
+footer{
+    background-color: #1a1a1a;
+}
+.footer-section{
+    padding: 25px 10px;
+    color: white;
+    display: inline-block;
+}
+footer li{
+    font-size: 0.8em;
+    padding: 0px 7px 0px 0px;
+}
+ul.social{
+    padding-top: 5px;
+}
+footer .social li{
+    font-size: 1.3em;
+    padding: 0px 12px 0px 0px;
+}
+.coda{
+    font-size: 0.9em;
 }
