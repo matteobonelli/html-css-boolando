@@ -118,6 +118,17 @@ nav{
     font-size: 0.7em;
     display: inline-block;
 }
+.cuore{
+    position: absolute;
+    right: 0;
+    top: 2%;
+    font-size: 2em;
+    background-color: white;
+    padding: 0 10px;
+}
+.red-heart:hover{
+    color: red;
+}
 /*footer*/
 footer{
     background-color: #1a1a1a;
