@@ -44,7 +44,14 @@ li{
 }
 /*header*/
 header{
-    background-color: #ff6900 ;
+    margin-bottom: 50px;
+}
+.fixed{
+    background-color: #ff6900;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
 }
 nav{
     padding: 10px;
